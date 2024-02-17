@@ -1,0 +1,76 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: fixed;
+  text-transform: capitalize;
+}
+.App {
+  background: linear-gradient(#141414f5, hsl(0, 0%, 27%));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_container {
+  border-radius: 35px;
+  overflow: auto;
+  background-color: #646464;
+  height: auto;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #fff;
+  width: 100%;
+  display: block;
+  padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  outline: none;
+}
+input[type="text"]:active {
+  outline: none;
+}
+::placeholder{
+  color: #7a1515;
+}
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #000000c9;
+  color: #fff;
+  text-transform: uppercase;
+}
+.info {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.info_key {
+  color: #fff;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+.info_key:last-child {
+  border: 0;
+}
+.info_value {
+  color: #07051d;
+  font-weight: bold;
+}
